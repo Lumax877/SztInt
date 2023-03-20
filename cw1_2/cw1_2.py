@@ -18,9 +18,6 @@ for i in decisionType:
         symbols.append(i)
 print('Symbole klas decyzyjnych:', symbols)
 
-TypeSize = []
-for i in range(len(symbols)):
-    TypeSize.append(0)
 
 s_count = 0
 n_count = 0
