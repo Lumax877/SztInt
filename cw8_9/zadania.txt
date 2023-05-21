@@ -1,0 +1,49 @@
+Zadanie 1 - Rozważmy sytuację z Example 1. Proszę sprawdzić czy KB |= α2 gdzie a2 reprezentuje [2,2] jest bezpieczne.
+
+a2 = [2,2] jest bezpieczny.
+Do a2 należą wszystkie modele, w których pole [2,2] jest bezpieczne.
+Do KB należą 3 modele, z czego dwa z nich przedstawiają pole [2,2] jako niebezpieczne.
+Zatem M(KB) ⊆ M(a2) jest fałszywe, więc KB |= α2 również jest fałszywe.
+
+Zadanie 2 - Sprawdź, czy podane zdania są logicznie równoważne. ¬(p∨(¬p∧q)) i ¬p∧¬q.
+
+Dla p = 0 i q = 0:
+¬(p∨(¬p∧q)) = ¬(0∨(¬0∧0)) = ¬(0∨(1∧0)) = ¬(0∨0) = ¬0 = 1
+¬p∧¬q = ¬0∧¬0 = 1∧1 = 1
+
+Dla p = 1 i q = 0:
+¬(p∨(¬p∧q)) = ¬(1∨(¬1∧0)) = ¬(1∨(0∧0)) = ¬(1∨0) = ¬1 = 0
+¬p∧¬q = ¬1∧¬0 = 0∧1 = 1
+
+Dla p = 0 i q = 1:
+¬(p∨(¬p∧q)) = ¬(0∨(¬0∧1)) = ¬(0∨(1∧1)) = ¬(0∨1) = ¬1 = 0
+¬p∧¬q = ¬0∧¬1 = 1∧0 = 0
+
+Dla p = 1 i q = 1:
+¬(p∨(¬p∧q)) = ¬(1∨(¬1∧1)) = ¬(1∨(0∧1)) = ¬(1∨0) = ¬1 = 0
+¬p∧¬q = ¬1∧¬1 = 0∧0 = 0
+
+Zdania są logicznie równoważne.
+
+Zadanie 3 - sprawdź, czy poniższe zdanie jest spełnialne.
+(i) (p ⇒ q) ⇒ (¬p ⇒ ¬q)
+Dla p = 0 i q = 0:
+(0 ⇒ 0) ⇒ (¬0 ⇒ ¬0) = 1 ⇒ (1 ⇒ 1) = 1 ⇒ 1 = 1
+Zdanie jest spełnialne.
+
+(ii) (p ⇒ q) ⇒ ((p ∧ r) ⇒ q)
+Dla p = 0, q = 0, r = 0:
+(0 ⇒ 0) ⇒ ((0 ∧ 0) ⇒ 0) = 1 ⇒ (0 ⇒ 0) = 1 ⇒ 1 = 1
+Zdanie jest spełnialne.
+
+
+
+
+
+
+
+
+
+
+
+
